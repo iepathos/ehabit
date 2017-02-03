@@ -8,7 +8,7 @@ canonifyurls = true
 [params]
   title = "ehab.it"
   description = 'freelancing, coding, and deep learning'
-  logo = "fa-barcode"
+  logo = "fa-linux"
   copyright = "2017 ehab.it"
 
 [[params.social]]
