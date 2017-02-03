@@ -1,4 +1,4 @@
-#!/usr/bin zsh
+#!/bin/bash
 hugo
 git add .
 git commit -m 'Built for deployment'
