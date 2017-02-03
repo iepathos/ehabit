@@ -66,34 +66,22 @@
 								</ul>
 							</article>
 
-						<!-- Freelance Advice -->
-							<article id="freelance-advice">
-								<h2 class="major">Freelancing Advice</h2>
-								<span class="image main"><img src="/img/sunset.jpg" alt="" /></span>
-								<p>Always try to improve your craft, whatever that may be.  For me, it's programming.  I view every job as an opportunity to better master programming, automation and systems architecture.  Even the most tedious jobs I've done have been a positive learning experience for me because of this.</p>
-								<p>I've found a lot of clients will post smaller jobs as a way to test for good freelancers for larger projects.  If you see a small task posted by a client with a lot of jobs then it could be worth doing a really good job on that small task to get at the bigger jobs from the client.</p>
-								<p>Try to get positive client feedback from every job if possible.  Clients can be demanding sometimes but try to deliver what they want and if they are too much don't take future jobs from them.  Remember you took a particular task but meeting your clients needs and expectations is the true task underlying every job.</p>
-								<p>Good advice I have been given but haven't always stuck to is to try to keep multiple clients going rather than getting yourself locked into just one client for all your income.  The nature of freelancing has less security than is ideal and keeping your income sources diverse means you aren't dependent upon any one client and that is a great way to be.</p>
-							</article>
-
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<form method="post" action="#">
-									<div class="field half first">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
+								<p>Email me. This form will just open up your email filled out accordingly ;) <br>
+								<a href="mailto:glen@ehab.it">glen@ehab.it</a></p>
+								<form method="post" action="#" id='contact_form'>
+									<div class="field">
+										<label for="subject">Subject</label>
+										<input type="text" name="subject" id="subject" />
 									</div>
 									<div class="field">
 										<label for="message">Message</label>
 										<textarea name="message" id="message" rows="4"></textarea>
 									</div>
 									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="special" /></li>
+										<li><input type="submit" value="Send Email" class="special" /></li>
 										<li><input type="reset" value="Reset" /></li>
 									</ul>
 								</form>
@@ -102,6 +90,16 @@
 									<li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
 									{{ end }}
 								</ul>
+							</article>
+
+						<!-- Freelance Advice -->
+							<article id="freelance-advice">
+								<h2 class="major">Freelancing Advice</h2>
+								<span class="image main"><img src="/img/sunset.jpg" alt="" /></span>
+								<p>Always try to improve your craft, whatever that may be.  For me, it's programming.  I view every job as an opportunity to better master programming, automation and systems architecture.  Even the most tedious jobs I've done have been a positive learning experience for me because of this.</p>
+								<p>I've found a lot of clients will post smaller jobs as a way to test for good freelancers for larger projects.  If you see a small task posted by a client with a lot of jobs then it could be worth doing a really good job on that small task to get at the bigger jobs from the client.</p>
+								<p>Try to get positive client feedback from every job if possible.  Clients can be demanding sometimes but try to deliver what they want and if they are too much don't take future jobs from them.  Remember you took a particular task but meeting your clients needs and expectations is the true task underlying every job.</p>
+								<p>Good advice I have been given but haven't always stuck to is to try to keep multiple clients going rather than getting yourself locked into just one client for all your income.  The nature of freelancing has less security than is ideal and keeping your income sources diverse means you aren't dependent upon any one client and that is a great way to be.</p>
 							</article>
 
 						<!-- Blog -->
@@ -141,6 +139,6 @@
 			<script src="/js/skel.min.js"></script>
 			<script src="/js/util.js"></script>
 			<script src="/js/main.js"></script>
-
+			<script src="/js/email.js"></script>
 	</body>
 </html>
