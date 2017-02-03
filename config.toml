@@ -1,8 +1,9 @@
 languageCode = "en-us"
 title = "ehab.it"
-baseURL = "https://ehab.it"
+baseURL = "https://iepathos.github.io/ehabit/"
 theme = "dimension"
 publishDir = "docs"
+canonifyurls = true
 
 [params]
   title = "ehab.it"
