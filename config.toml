@@ -1,0 +1,20 @@
+languageCode = "en-us"
+title = "My New Hugo Site"
+baseURL = "http://example.org/"
+theme = "dimension"
+
+[params]
+  title = "ehab.it"
+  description = 'freelancing, code, and deep learning'
+  logo = "fa-barcode"
+  copyright = "2017 ehab.it"
+
+[[params.social]]
+  medium = "linkedin"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/glenbbaker"
+
+[[params.social]]
+  medium = "github"
+  icon = "github"
+  link = "https://github.com/iepathos"
