@@ -5,7 +5,7 @@ theme = "dimension"
 
 [params]
   title = "ehab.it"
-  description = 'freelancing, code, and deep learning'
+  description = 'freelancing, coding, and deep learning'
   logo = "fa-barcode"
   copyright = "2017 ehab.it"
 
