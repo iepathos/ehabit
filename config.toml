@@ -6,8 +6,8 @@ publishDir = "docs"
 canonifyurls = true
 
 [params]
-  title = "ehab.it"
-  description = 'freelancing, coding, and deep learning'
+  title = "Glen Baker"
+  description = 'freelance software engineer'
   logo = "fa-linux"
   copyright = "2017 ehab.it"
 
