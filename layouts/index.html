@@ -68,22 +68,7 @@
 						<!-- Contact -->
 							<article id="contact">
 								<h2 class="major">Contact</h2>
-								<p>Email me. This form will just open up your email filled out accordingly ;) <br>
-								<a href="mailto:glen@ehab.it">glen@ehab.it</a></p>
-								<form method="post" action="#" id='contact_form'>
-									<div class="field">
-										<label for="subject">Subject</label>
-										<input type="text" name="subject" id="subject" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="4"></textarea>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Email" class="special" /></li>
-										<li><input type="reset" value="Reset" id='reset' /></li>
-									</ul>
-								</form>
+								<p>Keep it simple and email me <a href="mailto:glen@ehab.it">glen@ehab.it</a>.</p>
 								<ul class="icons">
 									{{ range .Site.Params.social }}
 									<li><a href="{{ .link | safeURL }}" class="icon fa-{{ .icon }}"><span class="label">{{ .medium }}</span></a></li>
@@ -131,6 +116,5 @@
 			<script src="/js/skel.min.js"></script>
 			<script src="/js/util.js"></script>
 			<script src="/js/main.js"></script>
-			<script src="/js/email.js"></script>
 	</body>
 </html>
