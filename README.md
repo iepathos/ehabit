@@ -10,3 +10,4 @@ This is a golang hugo based website using github pages and cloudflare to serve t
 TODO:
 
 	+ Update images from default to personal ones
+	+ Improve text
